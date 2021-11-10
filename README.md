@@ -8,15 +8,18 @@ API接口自动化框架v1.0（unnitest（单元测试框架）+DDT（数据驱�
 （测试报告框架）+ SMTP发送邮件；
 
 详细框架结构：
+
 ![image](https://user-images.githubusercontent.com/58303130/141046912-344e848f-f94b-4b04-a414-d49b6f8f9b19.png)
 
 
 二、工程目录
+
 ![image](https://user-images.githubusercontent.com/58303130/141046978-b5bcc2e6-47b4-4870-b605-97b8cadd2504.png)
 
 三、实战操作
 1、测试用例输入方法
 （1）测试用例输入模板
+
 ![image](https://user-images.githubusercontent.com/58303130/141047004-4ff0fec0-b146-4957-ab80-33938da76fd4.png)
 
 
@@ -60,10 +63,12 @@ EXEC_RESULT = 15       # 是否成功pass/fail：不填，自动化生成
 举例：.*"code":"1000","message":"接口调用成功",.*
 
 2、测试报告和日志
+
 ![image](https://user-images.githubusercontent.com/58303130/141047016-9d602480-9f3b-4857-a336-b662be70933d.png)
 ![image](https://user-images.githubusercontent.com/58303130/141047022-8bb59aba-39c1-4cf0-aba9-635198c70747.png)
 
 
 
 3、邮件内容
+
 ![image](https://user-images.githubusercontent.com/58303130/141047035-e155214f-79bd-407d-b5f5-9b621a20d52a.png)
