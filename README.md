@@ -24,6 +24,7 @@ API接口自动化框架v1.0（unnitest（单元测试框架）+DDT（数据驱�
 
 
 （2）用例需要输入的内容
+
 CASE_NO = 1            # 用例编号：必填（格式：test_x）
 MODULE_NAME = 2        # 项目名称：非必填
 CASE_NAME = 3          # 用例名称：非必填
@@ -40,6 +41,7 @@ ASSET_TYPE = 13        # 断言类型：必填（相等/包含/正则）
 ASSET_PATTERN = 14     # 断言规则：非必填
 EXEC_RESULT = 15       # 是否成功pass/fail：不填，自动化生成
 
+
 请求体填写举例：
 1、无依赖数据，直接填写json传参内容；
 2、{"id":"${test_05.data}"}：
@@ -48,6 +50,7 @@ EXEC_RESULT = 15       # 是否成功pass/fail：不填，自动化生成
 说明传参依赖测试用例5的响应返回结果data字典的healthStewardName字段数据；
 4、{"id":"${test_05.data[0].healthStewardName}"}：
 说明传参依赖测试用例5的响应返回结果data列表的第一个字段healthStewardName数据；
+
 
 期望结果和断言填写举例：
 1、断言类型（相等）+断言规则（空）
