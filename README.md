@@ -9,7 +9,7 @@ API接口自动化框架v1.0（unnitest（单元测试框架）+DDT（数据驱�
 
 详细框架结构：
 
-![image](https://user-images.githubusercontent.com/58303130/141046912-344e848f-f94b-4b04-a414-d49b6f8f9b19.png)
+![4c90e27cb62182d686c5cdcab74da6c](https://user-images.githubusercontent.com/58303130/141709846-44250ce7-c4ef-431a-9fd9-aad4bb1ad878.png)
 
 
 二、工程目录
